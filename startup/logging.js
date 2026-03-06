@@ -1,6 +1,9 @@
 const winston = require("winston");
 
 module.exports = function() {
-  // You can configure more transports here if you want
-  winston.add(new winston.transports.Console({ format: winston.format.simple() }));
+  // Configure console transport for Winston 2.x
+  winston.add(winston.transports.Console, {
+    colorize: true,
+    showMeta: false
+  });
 };

@@ -1,0 +1,4 @@
+{
+  "db": "mongodb://localhost:27017/vidly",
+  "jwtPrivateKey": "your-secret-key-here"
+}
