@@ -1,9 +1,7 @@
 const winston = require("winston");
 
 module.exports = function() {
-  // Configure console transport for Winston 2.x
-  winston.add(winston.transports.Console, {
-    colorize: true,
-    showMeta: false
-  });
+  // Winston already has a default console transport
+  // No need to add another one - just ensure it's configured
+  // Additional transports (like MongoDB) can be added here if needed
 };
