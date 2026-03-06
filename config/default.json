@@ -1,4 +1,4 @@
 {
-  "db": "mongodb+srv://abdulkudusyusuf79_db_user:w4fQPeCJKI4om@vidly.urs0153.mongodb.net/?appName=vidly",
-  "jwtPrivateKey": "someSecretKeyHere"
+  "db": "mongodb://localhost:27017/vidly",
+  "jwtPrivateKey": "your-secret-key-here"
 }
